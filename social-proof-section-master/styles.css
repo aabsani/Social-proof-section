@@ -1,0 +1,134 @@
+@import url('https://fonts.google.com/specimen/Spartan');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'spartan', sans-serif;
+}
+.wrapper{
+   // display: flex;
+}
+.section-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.reviews-box{
+    width: 50%;
+    padding: 10px;
+    margin-right: 50px;
+}
+.reviews-box .review{
+    color:hsl(300, 43%, 22%);
+    padding:10px;
+    font-size: 45px;
+}
+.reviews-box .review2{
+    color: hsl(303, 10%, 53%);
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+}
+.ratings-box{
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    width: 500px;
+    margin-left: 50px;
+}
+.stars-box{
+    margin-right: 30px;
+}
+.rating-review{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-color:hsl(300, 24%, 96%);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    height: 50px;
+}
+.rating-guru{
+    display: flex;
+    justify-content: center;
+    background-color:hsl(300, 24%, 96%);
+    margin: 20px 0 20px 50px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 50px;
+}
+.rating-besttech{
+    display: flex;
+    justify-content: center;
+    background-color:hsl(300, 24%, 96%);
+    margin: 20px 0 20px 70px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 50px;
+    width: 450px;
+}
+.section-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 120px;
+}
+.customer1, .customer2, .customer3{
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(300, 24%, 96%);
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.customer2{
+    position: relative;
+    top: 20px;
+}
+.customer3{
+    position: relative;
+    top: 40px;
+}
+.customer-info{
+    display: flex;
+    margin: 15px 10px;
+}
+.img-box{
+    height: 50px;
+    width: 80px;
+}
+.img-box .profile-picture{
+    height: 40px;
+    width: 40px;
+}
+.name-status{
+    opacity: 0.7;
+    margin-left: -15px;
+}
+.status{
+    margin-top: 5px;
+}
+.remark-box{
+    line-height: 18px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 15px 10px;
+}
+.profile-picture{
+    border-radius: 50%;
+}
+.customer-info .status{
+    color: hsl(333, 80%, 67%);
+}
+.bg-box, .bg-top, .bg-bottom{
+    position: absolute;
+}
+.bg-bottom{
+    top: 110px;
+    left: 400px;
+}
